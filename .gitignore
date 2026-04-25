@@ -1,0 +1,66 @@
+# =========================
+# 1. 作業系統與環境 (Mac)
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# 2. 開發工具與 IDE
+# =========================
+# VSCode
+.vscode/
+*.code-workspace
+# Eclipse (你目前考慮使用的)
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+# IntelliJ IDEA (強烈建議未來轉換的)
+.idea/
+*.iml
+*.iws
+
+# =========================
+# 3. 敏感資訊與環境變數 (極度重要)
+# =========================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+# =========================
+# 4. Java / Spring Boot (後端)
+# =========================
+# Maven 編譯產出
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+# 或是 Gradle 編譯產出 (依據你建立 Spring Boot 時的選擇)
+build/
+.gradle/
+
+# =========================
+# 5. Python / AI (數據處理)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+# 虛擬環境
+venv/
+env/
+.venv/
+# Jupyter Notebook 快取 (如果你測試 AI 模型有用的話)
+.ipynb_checkpoints/
+
+# =========================
+# 6. Angular / Node.js (前端)
+# =========================
+node_modules/
+dist/
+tmp/
+out-tsc/
