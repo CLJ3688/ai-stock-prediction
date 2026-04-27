@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS news_sentiment (
     news_date DATE NOT NULL,
     title VARCHAR(255) NOT NULL,
     sentiment_score DECIMAL(5,4) NOT NULL,
-    source_url VARCHAR(500),
+    source_url TEXT,
     FOREIGN KEY (symbol) REFERENCES stocks(symbol)
 );
 
