@@ -11,13 +11,13 @@
 # VSCode
 .vscode/
 *.code-workspace
-# Eclipse (你目前考慮使用的)
+# Eclipse
 .metadata/
 .classpath
 .project
 .settings/
 *.launch
-# IntelliJ IDEA (強烈建議未來轉換的)
+# IntelliJ IDEA
 .idea/
 *.iml
 *.iws
@@ -31,6 +31,8 @@
 *.pem
 *.key
 credentials.json
+application-secret.yml
+application-secret.properties
 
 # =========================
 # 4. Java / Spring Boot (後端)
