@@ -1,0 +1,26 @@
+### 1. Get all stocks
+GET http://localhost:8080/api/stocks
+
+### 2. Search for specific stocks
+GET http://localhost:8080/api/stocks/0050
+
+### 3. Add a new stock
+POST http://localhost:8080/api/stocks
+Content-Type: application/json
+
+{
+  "symbol" : "2330",
+  "companyName" : "台積電",
+  "industry" : "半導體業",
+  "isActive" : true
+}
+
+### 4. Update stock information
+PUT http://localhost:8080/api/stocks/0050
+Content-Type: application/json
+
+{
+  "companyName" : "元大台灣50",
+  "industry" : "ETF",
+  "isActive" : true
+}
