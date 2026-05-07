@@ -24,3 +24,9 @@ Content-Type: application/json
   "industry" : "ETF",
   "isActive" : true
 }
+
+### 5. Get specific stocks historical prices
+GET http://localhost:8080/api/stocks/0050/prices
+
+### 6. Get specific stocks news sentiment
+GET http://localhost:8080/api/stocks/0050/news
